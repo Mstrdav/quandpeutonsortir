@@ -6,9 +6,9 @@ var dateSortie = new Date('2020-05-11T00:00:00');
 let interval = setInterval(function() {
     let now = new Date()
     let time = (dateSortie - now);
-    let minutes = 60 - now.getMinutes();
-    let secondes = 60 - now.getSeconds();
-    let milis = 1000 - now.getMilliseconds();
+    let minutes = 59 - now.getMinutes();
+    let secondes = 59 - now.getSeconds();
+    let milis = 999 - now.getMilliseconds();
     ms.innerHTML = minutes + ':' + secondes + "'";
     m.innerHTML = milis + "''";
 
