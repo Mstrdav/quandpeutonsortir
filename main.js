@@ -14,5 +14,6 @@ let interval = setInterval(function() {
     if(dateSortie - new Date() < 0) {
         clearInterval(interval);
         timer.innerHTML = '0';
+        document.body.classList = 'gradient';
     }
 }, 10);
