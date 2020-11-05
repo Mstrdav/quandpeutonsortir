@@ -1,7 +1,7 @@
 var timer = document.getElementById('timer');
 var ms = document.getElementById('ms');
 var m = document.getElementById('m');
-var dateSortie = new Date('2020-05-12T00:00:00');
+var dateSortie = new Date('2020-12-01T00:00:00');
 
 let interval = setInterval(function() {
     let now = new Date()
